@@ -5,10 +5,10 @@ import 'package:twitter_api/twitter_api.dart';
 class TwitterService {
 
   final twitterOauth = new twitterApi(
-      consumerKey: 'tFklvABtxUOBcN62S8RuBXUkZ',
-      consumerSecret: 'wblrIgMwSMa8b7kQB3pCLQ7ukyvvMPyjjiiQMcJ2VYsahbhpqi',
-      token: '1148625550237323264-n5qGRD9UReKIVF8xRDEyXDfboseZNk',
-      tokenSecret: 'tD0shPkiSaFywM1xCJNoCER7wbRnn7P0QOuNhmKKF3OSr'
+      consumerKey: '<YOUR_CONSUMER_API_KEY>',
+      consumerSecret: '<YOUR_CONSUMER_SECRET_KEY>',
+      token: '<YOUR_TOKEN>',
+      tokenSecret: '<YOUR_TOKE_SECRET>'
   );
 
   Future getTweet() async {
