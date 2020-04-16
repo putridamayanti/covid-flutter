@@ -10,7 +10,7 @@ class YoutubeService {
   Future searchVideo(keyword) async {
     try {
       final response = await client.get('https://www.googleapis.com/youtube/v3/search?part=snippet&'
-          'q='+ keyword +'&key=AIzaSyDzdN4sWztq5BK3Db-p4w9r3Dk9sSoyxiA');
+          'q='+ keyword +'&key=<YOUR_GOOGLE_API_KEY>');
 
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
